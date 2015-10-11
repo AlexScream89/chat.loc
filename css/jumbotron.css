@@ -1,0 +1,47 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.login {
+	color: white;
+}
+#enter-message {
+	position: fixed;
+	bottom: 30px;
+	max-height: 100px;
+}
+#public-room {	
+	overflow: auto;
+	height: 550px;	
+}
+@media(max-height:800px){
+#public-room {	
+	overflow: auto;
+	height: 480px;	
+}
+}
+@media(max-height:700px){
+#public-room {	
+	overflow: auto;
+	height: 380px;	
+}
+}
+@media(max-height:600px){
+#public-room {	
+	overflow: auto;
+	height: 260px;	
+}
+}
+@media(max-height:500px){
+#public-room {	
+	overflow: auto;
+	height: 160px;	
+}
+}
+@media(max-height:400px){
+#public-room {	
+	overflow: auto;
+	height: 60px;	
+}
+}
